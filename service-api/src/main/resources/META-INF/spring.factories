@@ -1,0 +1,4 @@
+# Carrega o arquivo .env antes da criacao dos beans, para que o projeto rode do
+# mesmo jeito na IDE, no bootRun e no jar, sem cadastrar variavel na mao.
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.carpass.service_api.config.DotenvEnvironmentPostProcessor

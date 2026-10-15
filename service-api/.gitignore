@@ -35,3 +35,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### CarPass
+.env
+.env.local
+*.log
+_to_delete/
+/.metadata/

@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+*.log
+
+# Build & Dependencies
+.gradle/
+build/
+bin/
+out/
+
+# IDEs
+.idea/
+.vscode/
+.metadata/
+.settings/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.factorypath
+
+# Temporary
+_to_delete/
+service-api/_to_delete/
+service-api/*.log
